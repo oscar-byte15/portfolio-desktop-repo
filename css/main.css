@@ -284,7 +284,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #FFFFFF;
+  background-color: #fff;
 }
 
 .my__title {
@@ -460,7 +460,7 @@ hr {
 }
 
 .form-section {
-  background-color: #FFFFFF;
+  background-color: #fff;
   background-image:
     url("../statics/images/ep1.svg"),
     url("../statics/images/rp1.svg"),
