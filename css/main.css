@@ -284,7 +284,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
+  background-color: #FFFFFF;
 }
 
 .my__title {
@@ -460,7 +460,7 @@ hr {
 }
 
 .form-section {
-  background-color: #fff;
+  background-color: #FFFFFF;
   background-image:
     url("../statics/images/ep1.svg"),
     url("../statics/images/rp1.svg"),
@@ -479,7 +479,6 @@ hr {
   background-size: auto, auto, auto, auto, auto, cover;
   display: flex;
   justify-content: center;
-  margin-top: 100px;
 }
 
 .div-wrap {
@@ -557,7 +556,7 @@ hr {
   margin: 24px auto;
 }
 
-@media (min-width: 721px) {
+@media (min-width: 768px) {
   .navbar {
     padding: 1.5rem 8rem;
   }
@@ -737,7 +736,7 @@ hr {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 767px) {
   .reach_me {
     flex-direction: column;
     gap: 18px;
