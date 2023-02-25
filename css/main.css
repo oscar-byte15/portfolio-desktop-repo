@@ -23,6 +23,16 @@ body {
   position: relative;
 }
 
+@keyframes rotate-logo {
+  50% {
+    transform: scale(1.5) rotate(360deg) translateX(-50%);
+  }
+
+  to {
+    transform: scale(1) rotate(720deg) translateX(0);
+  }
+}
+
 .ul {
   list-style: none;
   margin: 0;
@@ -154,6 +164,10 @@ body {
   width: 11rem;
 }
 
+.showing_icons__li img:hover{
+  transform: scale(1.3, 0.4);
+}
+
 .head .ul {
   list-style: none;
   margin: 0;
@@ -260,6 +274,10 @@ body {
   background: #ebebff;
 }
 
+.card__items__topics__text:hover{
+  transform: scale(0.7);
+}
+
 .card__items__btn .btn {
   width: 124px;
   height: 48px;
@@ -276,6 +294,10 @@ body {
 .card__items__btn .btn:hover {
   background-color: #4053fc;
   color: white;
+}
+
+.card__items__img:hover{
+  transform: scale(1.2);
 }
 
 .my {
@@ -297,6 +319,10 @@ body {
 
 .my__icons__link {
   text-decoration: none;
+}
+
+.my__icons__li img:hover{
+  transform: scale(1.3, 0.4);
 }
 
 .my__dsc {
@@ -359,6 +385,10 @@ body {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
+}
+
+.list img:hover{
+  transform: scale(1.2);
 }
 
 .my_languages__bottom li {
@@ -446,6 +476,10 @@ input::placeholder {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+}
+
+:hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  transform: translate(30px);
 }
 
 hr {
