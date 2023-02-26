@@ -275,7 +275,7 @@ body {
 }
 
 .card__items__topics__text:hover{
-  transform: scale(0.7);
+  transform: scale(0.8);
 }
 
 .card__items__btn .btn {
