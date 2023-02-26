@@ -297,7 +297,7 @@ body {
 }
 
 .card__items__img:hover{
-  transform: scale(1.2);
+  transform: scale(1.18);
 }
 
 .my {
@@ -479,7 +479,7 @@ input::placeholder {
 }
 
 :hover::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  transform: translate(30px);
+  transform: translate(50px);
 }
 
 hr {
